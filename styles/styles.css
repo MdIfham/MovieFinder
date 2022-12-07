@@ -33,14 +33,15 @@ body {
     transition: .8s;
     background: rgb(33, 34, 38);
     background: linear-gradient(180deg, rgb(95 95 114) 0%, rgba(33, 37, 49, 1) 100%) no-repeat;
-    color: #db1919;
+    color: #eee7e7;
     min-height: 100vh;
     font-family: 'Lato', sans-serif;
 
     --header-height: 70px;
     --footer-height: 0px;
     --result-grid-column: 5;
-    --poster-height: calc(100vw / 4);
+    --poster-height:
+    calc(100vw / 4);
 }
 
 body.loaded {
@@ -145,7 +146,7 @@ main.content {
 .content__result__next-btn {
     background: #1f1819;
     border: none;
-    color: #db1919;
+    color: #2dee03;
     outline: none;
     padding: 0.3rem 0.85rem;
     border-radius: 3px;
@@ -345,12 +346,12 @@ main.content {
 .movie-item__meta {
     display: block;
     font-size: 14px;
-    color: #999;
+    color: #2dee03;
 }
 
 .movie-item__meta__imdb-link a {
     display: inline-block;
-    color: #999;
+    color: #2dee03;
     text-decoration: none;
 }
 
